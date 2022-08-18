@@ -1,0 +1,5 @@
+# ninja log v5
+0	849	1658891044830548876	CMakeFiles/bal_common.dir/src/common.cpp.o	6b38c2d3c8167883
+850	854	1658891044834548874	libbal_common.a	e6aba6f16f678e65
+0	1200	1658891045178548621	CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o	3379c70ef0836f19
+1200	1509	1658891045486548395	bundle_adjustment_ceres	fbc67dec182afd42

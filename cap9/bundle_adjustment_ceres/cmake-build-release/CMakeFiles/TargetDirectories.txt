@@ -1,0 +1,4 @@
+/home/bupo/my_study/slam14/slam14_my/cap9/bundle_adjustment_ceres/cmake-build-release/CMakeFiles/bal_common.dir
+/home/bupo/my_study/slam14/slam14_my/cap9/bundle_adjustment_ceres/cmake-build-release/CMakeFiles/bundle_adjustment_ceres.dir
+/home/bupo/my_study/slam14/slam14_my/cap9/bundle_adjustment_ceres/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/bupo/my_study/slam14/slam14_my/cap9/bundle_adjustment_ceres/cmake-build-release/CMakeFiles/rebuild_cache.dir

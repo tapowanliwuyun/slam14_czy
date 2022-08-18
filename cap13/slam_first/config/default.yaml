@@ -1,0 +1,16 @@
+%YAML:1.0
+# data
+# the tum dataset directory, change it to yours! 
+# dataset_dir: /media/xiang/Data/Dataset/Kitti/dataset/sequences/00
+#dataset_dir: /mnt/1A9286BD92869CBF/Dataset/Kitti/dataset/sequences/05
+dataset_dir: /home/bupo/bag_file/data_odometry_gray/dataset/sequences/05
+#dataset_dir: ../../../../../bag_file/data_odometry_gray/dataset/sequences/00
+# camera intrinsics 内参
+camera.fx: 517.3
+camera.fy: 516.5
+camera.cx: 325.1
+camera.cy: 249.7
+
+num_features: 150
+num_features_init: 50 # 初始化要保证最少有效的特征点对（也就是初始帧左图提取和右图追踪的特征点数目）
+num_features_tracking: 50 # 如果追踪后内点的数目大于所要求的内点的要求数目，设定此次追踪是好的

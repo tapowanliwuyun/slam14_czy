@@ -1,0 +1,7 @@
+/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/CMakeFiles/test.dir
+/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/CMakeFiles/edit_cache.dir
+/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/CMakeFiles/rebuild_cache.dir
+/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/bin/CMakeFiles/hello.dir
+/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/bin/CMakeFiles/test.dir
+/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/bin/CMakeFiles/edit_cache.dir
+/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/bin/CMakeFiles/rebuild_cache.dir

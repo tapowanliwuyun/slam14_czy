@@ -1,0 +1,3 @@
+/home/bupo/my_study/slam14/slam14_my/cap7/kehouti/pnp_firstframe_6/cmake-build-debug/CMakeFiles/cap7_6_pnp.dir
+/home/bupo/my_study/slam14/slam14_my/cap7/kehouti/pnp_firstframe_6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bupo/my_study/slam14/slam14_my/cap7/kehouti/pnp_firstframe_6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

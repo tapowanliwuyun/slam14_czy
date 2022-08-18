@@ -1,0 +1,26 @@
+/home/bupo/CLion-2022.1.2/clion-2022.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/bupo/CLion-2022.1.2/clion-2022.1.2/bin/ninja/linux/ninja -G Ninja -S /home/bupo/my_study/slam14/slam14_my/cap7/kehouti/pnp_firstframe_6 -B /home/bupo/my_study/slam14/slam14_my/cap7/kehouti/pnp_firstframe_6/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr/local (found suitable version "3.4.1", minimum required is "3") 
+-- Found CSparse: /usr/include/suitesparse  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bupo/my_study/slam14/slam14_my/cap7/kehouti/pnp_firstframe_6/cmake-build-debug

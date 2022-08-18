@@ -1,0 +1,19 @@
+Start testing: Aug 12 15:46 CST
+----------------------------------------------------------
+1/1 Testing: mytest
+1/1 Test: mytest
+Command: "/home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build/bin/hello"
+Directory: /home/bupo/my_study/slam14/slam14_my/cap2/cmake_study/t2/build
+"mytest" start time: Aug 12 15:46 CST
+Output:
+----------------------------------------------------------
+Hello World!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"mytest" end time: Aug 12 15:46 CST
+"mytest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 12 15:46 CST
