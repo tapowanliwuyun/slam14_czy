@@ -4,6 +4,7 @@
 # 仅忽略当前路径下的build文件夹及其内所有的文件
 
 */*/build/
+*/*/*/build/
 */*/cmake-build-debug/
 #.gitignore
 
