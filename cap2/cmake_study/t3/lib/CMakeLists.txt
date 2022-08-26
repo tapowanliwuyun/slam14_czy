@@ -14,8 +14,9 @@ SET_TARGET_PROPERTIES(hello_static PROPERTIES CLEAN_DIRECT_OUTPUT 1)
 #动态库版本号，动态库版本为1.2 API版本为1
 SET_TARGET_PROPERTIES(hello PROPERTIES VERSION 1.2 SOVERSION 1)
 
+#但是这里我把cmakelists.txt中的安装代码都注释掉了，避免对系统的干扰
 # 安装到/tmp/t3/usr,即cmake -DCMAKE_INSTALL_PREFIX=/tmp/t3/usr ..
-INSTALL(TARGETS hello hello_static
-		LIBRARY DESTINATION lib
-		ARCHIVE DESTINATION lib)
-INSTALL(FILES hello.h DESTINATION include/hello)
+#INSTALL(TARGETS hello hello_static
+#		LIBRARY DESTINATION lib
+#		ARCHIVE DESTINATION lib)
+#INSTALL(FILES hello.h DESTINATION include/hello)

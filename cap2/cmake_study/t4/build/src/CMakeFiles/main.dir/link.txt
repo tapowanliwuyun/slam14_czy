@@ -1,1 +1,0 @@
-/usr/bin/cc -rdynamic CMakeFiles/main.dir/main.o -o main  /tmp/t3/usr/lib/libhello.a 
