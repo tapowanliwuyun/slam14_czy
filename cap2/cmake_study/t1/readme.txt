@@ -5,3 +5,6 @@
 	make
 运行
 	./hello
+
+shide
+
