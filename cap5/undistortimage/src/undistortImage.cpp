@@ -2,7 +2,7 @@
 using namespace std;
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
-string image_file = "./src/distorted.png";
+string image_file = "../src/distorted.png";
 
 int main(int argc,char** argv)
 {
