@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
     vector<cv::Mat> colorImgs, depthImgs;    // 彩色图和深度图
     vector<Eigen::Isometry3d> poses;         // 相机位姿
 
-    ifstream fin("./data/pose.txt");
+    ifstream fin("../data/pose.txt");
     if (!fin) {
         cerr << "cannot find pose file" << endl;
         return 1;

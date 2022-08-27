@@ -12,7 +12,7 @@ using namespace std;
 
 int main( int argc, char** argv )
 {
-    String directoryPath = "/home/bupo/my_study/slam14/slam14_my/cap11/rgbd_dataset_freiburg1_desk2/rgb";//图像路径
+    String directoryPath = "../../rgbd_dataset_freiburg1_desk2/rgb";//图像路径
     vector<String> imagesPath;
     cv::glob(directoryPath, imagesPath);
     // string dataset_dir = argv[1];
