@@ -101,21 +101,22 @@ int main(int argc, char** argv)
     cout << "t = " << t << endl;
     cout << "R^T = " << R.t() << endl;
     cout << "t^T = " << -R.t() * t << endl;
+    cout<<"验证 p2 = R*P1 +t "<<endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "p1 = " << pts1[i] << endl;
+        cout << "p2 = " << pts2[i] << endl;
+        cout << "(R*p1+t) = " <<
+             R * (cv::Mat_<double>(3,1) << pts1[i].x, pts1[i].y, pts1[i].z) + t
+             << endl;
+        cout << endl;
+    }
     cout<<" ************************************ICP 3d-3d by SVD**************************************** "<<endl;
     cout<<endl;
     cout<<" ************************************ICP 3d-3d by g2o**************************************** "<<endl;
     bundleAdjustment(pts1, pts2, R, t);
     cout<<"R= \n"<<R<<endl;
     cout<<"t = "<< t.t() <<endl;
-    cout<<"验证 p2 = R*P1 +t "<<endl;
-    for (int i = 0; i < 5; i++) {
-        cout << "p1 = " << pts1[i] << endl;
-        cout << "p2 = " << pts2[i] << endl;
-        cout << "(R*p1+t) = " <<
-            R * (cv::Mat_<double>(3,1) << pts1[i].x, pts1[i].y, pts1[i].z) + t
-            << endl;
-        cout << endl;
-    }
+
     cout<<" ************************************ICP 3d-3d by g2o**************************************** "<<endl;
 
 

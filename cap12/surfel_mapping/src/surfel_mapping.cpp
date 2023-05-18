@@ -5,6 +5,7 @@
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <pcl/io/pcd_io.h>
+#include <pcl/io/ply_io.h>
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/kdtree/kdtree_flann.h>
 #include <pcl/surface/surfel_smoothing.h>
@@ -45,7 +46,7 @@ pcl::PolygonMeshPtr triangulateMesh(const SurfelCloudPtr &surfels) {
     pcl::GreedyProjectionTriangulation<SurfelT> gp3;
     pcl::PolygonMeshPtr triangles(new pcl::PolygonMesh);
 
-    // Set the maximum distance between connected points (maximum edge length)
+    // Set the maximum distance between connected points (maximum edge length) 设置连接点之间的最大距离（最大边长度）
     gp3.setSearchRadius(0.05);
 
     // Set typical values for the parameters
@@ -82,6 +83,9 @@ int main(int argc, char **argv) {
     // Compute a greedy surface triangulation
     cout << "computing mesh ... " << endl;
     pcl::PolygonMeshPtr mesh = triangulateMesh(surfels);
+
+    std::string ply_filename("mesh.ply");
+    pcl::io::savePLYFile(ply_filename, *mesh);
 
     cout << "display mesh ... " << endl;
     pcl::visualization::PCLVisualizer vis;
